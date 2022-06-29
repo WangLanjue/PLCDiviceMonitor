@@ -1,0 +1,5 @@
+$DO
+    EtherCAT接口数字输出模块，第一版,16通道:
+    DO:16:bit:
+    2:
+$DO END

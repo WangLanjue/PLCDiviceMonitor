@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_scan"
+        android:focusableInTouchMode="false"
+        android:orderInCategory="100"
+        android:title="设备管理"
+
+        />
+    <item
+        android:id="@+id/action_scanmode"
+        android:orderInCategory="100"
+        android:title="模块配置"
+        android:focusableInTouchMode="false"
+        />
+    <item
+        android:id="@+id/action_connecttype"
+        android:orderInCategory="100"
+        android:title="切换模式"
+        android:focusableInTouchMode="false"
+        />
+    <item
+        android:id="@+id/action_xiugai"
+        android:orderInCategory="100"
+        android:title="网络配置"
+        android:focusableInTouchMode="false"
+        />
+
+</menu>

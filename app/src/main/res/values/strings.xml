@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DiviceMonitor2</string>
+
+
+    <string name="diviceinform">diviceinform界面</string>
+    <string name="connectactivity">connect界面</string>
+    <string name="findactivity">find界面</string>
+
+    <string name="useractivity">user界面</string>
+</resources>

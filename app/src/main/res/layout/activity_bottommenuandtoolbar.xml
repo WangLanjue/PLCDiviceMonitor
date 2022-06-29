@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainpage1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:context=".MainPage">
+
+    <RelativeLayout
+        android:id="@+id/mainview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toptoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+        >
+
+        <TextView
+            android:id="@+id/toobartext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主页"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+        <com.example.divicemonitor2.tools.MyViewPager
+            android:id="@+id/mainview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toptoolbar"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="57dp">
+
+        </com.example.divicemonitor2.tools.MyViewPager>
+
+
+        <FrameLayout
+            android:id="@+id/bottomview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            >
+
+
+        <LinearLayout
+            android:id="@+id/bottommenu"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_alignParentBottom="true"
+            android:elevation="10dp"
+            android:gravity="bottom"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_tab_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical"
+                android:background="@color/ivory">
+
+                <ImageView
+                    android:id="@+id/iv_tab_one"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/diviceui" />
+
+                <TextView
+                    android:id="@+id/tv_tab_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="2dp"
+                    android:text="设备"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tab_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical"
+                android:background="@color/ivory">
+
+                <ImageView
+                    android:id="@+id/iv_tab_two"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/connectui" />
+
+                <TextView
+                    android:id="@+id/tv_tab_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="2dp"
+                    android:text="通讯" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tab_three"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical"
+                android:background="@color/ivory">
+
+
+                <TextView
+                    android:id="@+id/tv_tab_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:paddingBottom="1dp"
+                    android:text="连接"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_tab_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical"
+                android:background="@color/ivory">
+
+                <ImageView
+                    android:id="@+id/iv_tab_four"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/findui" />
+
+                <TextView
+                    android:id="@+id/tv_tab_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="2dp"
+                    android:text="发现" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tab_five"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical"
+                android:background="@color/ivory">
+
+                <ImageView
+                    android:id="@+id/iv_tab_five"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/userui" />
+
+                <TextView
+                    android:id="@+id/tv_tab_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="2dp"
+                    android:text="我的" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_tab_three"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/linkclickui" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

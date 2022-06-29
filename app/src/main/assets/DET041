@@ -1,0 +1,5 @@
+$AI
+    EtherCAT接口模拟信号输入模块，第一版,4通道:
+    DO:4:byte:
+    4:
+$AI END

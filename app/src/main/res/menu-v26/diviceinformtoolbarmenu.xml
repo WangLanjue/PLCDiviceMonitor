@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/linkcondition1"
+        android:title="连接情况"
+        android:icon="@drawable/linkfalse"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/linktype1"
+        android:title="连接方式"
+        android:icon="@drawable/linkserver"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_divicescan"
+        android:title="设备管理"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_scanmode"
+
+        android:title="模块配置"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/action_connecttype"
+        android:title="切换模式"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_netchange"
+        android:title="网络配置"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>

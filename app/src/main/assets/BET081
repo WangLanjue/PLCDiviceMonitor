@@ -1,0 +1,5 @@
+$DI
+    EtherCAT接口数字输入模块，第一版,8通道:
+    DI:8:bit:
+    1:
+$DI END
