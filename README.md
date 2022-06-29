@@ -1,0 +1,2 @@
+# PLCDiviceMonitor
+刚开始学android的时候利用实验室设备做的一个小APP，通过viewpager+fragment实现滑动窗口，使用sharedPreferences存储设备数据，采用UDP通讯，Modbus协议接受设备数据
