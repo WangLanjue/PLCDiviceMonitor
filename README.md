@@ -1,11 +1,12 @@
 # PLCDiviceMonitor
 刚开始学android的时候利用实验室设备做的一个小APP监控PLC设备，通过viewpager+fragment实现滑动窗口，使用sharedPreferences存储设备数据，采用UDP通讯，Modbus协议接受设备数据，只具备读取功能，不支持写入。
 
-##实际效果：
+## 实际效果：
 打开APP可以提示是否连接上次设备
-![S20702-100700](https://user-images.githubusercontent.com/98386278/177317418-f0f0ce17-b26f-42c7-8b66-d6cc9a4876b5.jpg)
+<img src="https://user-images.githubusercontent.com/98386278/177317418-f0f0ce17-b26f-42c7-8b66-d6cc9a4876b5.jpg" width="100px">
+
 编辑界面，编辑和保存设备信息：
-![S20702-100712](https://user-images.githubusercontent.com/98386278/177317561-759eda6a-b7b2-401c-afe4-8c51c79df729.jpg)
+![S20702-100712](https://user-images.githubusercontent.com/98386278/177317561-759eda6a-b7b2-401c-afe4-8c51c79df729.jpg) 
 ![S20705-193812](https://user-images.githubusercontent.com/98386278/177320684-109ef823-6ac9-42bf-894e-1b775c2dbbbe.jpg)
 
 各个模块界面
